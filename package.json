@@ -4,7 +4,7 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "build:test": "cross-env SHELL=sh generate-test-env.sh"
+        "generate": "cross-env SHELL=sh generate.sh"
     },
     "dependencies": {
         "dotenv": "^16.0.3"
